@@ -1,0 +1,55 @@
+.yyy {
+    width: 97%;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+    height: 300px;
+
+    
+
+
+    div:nth-child(2) {
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width: 30%;
+        height: 300px;
+       
+        
+
+        img {
+            height: 100%;
+            width: auto;
+        }
+        
+
+    }
+
+    div:nth-child(3) {
+        background-color: pink;
+        width: 70%;
+    }
+
+    div {
+        width: 50%;
+        padding: 20px;
+    }
+    svg{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        transform: translate(0,0) rotate(180deg);
+        height: 50px;
+        
+        
+        
+    }
+
+
+
+
+
+}

@@ -1,0 +1,93 @@
+.main {
+  display: flex;
+  position: relative;
+  width: 60%;
+  height: auto;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin: 100px auto;
+  justify-content: flex-end;
+}
+.main div:nth-child(1) {
+  height: 80%;
+  width: 22%;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.main div:nth-child(1) img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main__s {
+  margin-top: 30px;
+  width: 80%;
+}
+.main__s__redo {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+.main__s__redo p, .main__s__redo img {
+  margin: 0 10px;
+}
+.main__s h2 {
+  margin-bottom: 50px;
+}
+.main__s__d {
+  display: flex;
+  height: auto;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+}
+.main__s__d input {
+  display: none;
+}
+.main__s__d label {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgreen;
+  align-items: center;
+  border-radius: 20px;
+  width: 45%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+}
+.main__s__d label p {
+  margin-bottom: 0;
+}
+.main__s__d__icons {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.main__s__d__icons p, .main__s__d__icons img {
+  margin-bottom: 0;
+  margin: 0 10px;
+}
+.main__s__d__stick {
+  height: 80%;
+  width: 1px;
+  background-color: black;
+}
+.main__s #h:checked ~ label {
+  background-color: aqua;
+}
+.main__s .main__s__redo img:hover {
+  animation: name 5s;
+}
+@keyframes name {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1800deg);
+  }
+}/*# sourceMappingURL=main.css.map */
